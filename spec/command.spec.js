@@ -13,7 +13,7 @@ describe("Command class", function () {
     let command = new Command(commandType);
     expect(command.commandType).toBe(commandType);
   });
-  test("constructor sets a value passed in as the 2nd argument", function(){
+  test("constructor sets a value passed in as the 2nd argument", function() {
     let commandType = ' ';
     let value = null;
     let command = new Command(commandType, value);
